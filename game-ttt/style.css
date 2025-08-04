@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.d-none {
+    display: none;
+}
+
+
+.styled-checkbox {
+    margin: auto;
+    align-content: baseline;
+    margin-right: 10px;
+}
+
+
+.styled-label {
+    margin: auto;
+    align-content: baseline;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+
+
+body {
+    font-family: 'Roboto';
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+
+
+.jumbotron {
+    background-color: #DEDEDE;
+    padding: 1.5rem;
+    border-radius: 0.3rem;
+    margin: 0 0 1rem 0;
+}
+
+
+
+
+.text-center {
+    text-align: center;
+}
+
+
+
+
+form {
+    background: white;
+    border-radius: 0.3rem;
+    box-shadow: 0.1rem 0.1rem 0.1rem #adacac;
+    border: 0.05rem solid #adacac;
+    margin: 0 0.5rem;
+    padding: 1rem;
+}
+
+
+
+
+.col {
+    padding: 0.3rem;
+}
+
+
+
+
+.col input {
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+    border: none;
+    width: 100%;
+    box-shadow: 0.1rem 0.1rem 0.1rem #adacac;
+}
+
+
+
+
+.col input:focus {
+    outline: none;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 255, 0.7);
+}
+
+
+
+
+#div-with-a {
+    margin: 1rem 0;
+    text-align: end;
+}
+
+
+
+
+#newGame {
+    background-color: rgb(78, 143, 249);
+    color: white;
+    text-decoration: none;
+    padding: 0.3rem;
+    border-radius: 0.2rem;
+}
+
+
+
+
+#newGame:hover {
+    background-color: rgb(162, 189, 234);
+}
+
+
+
+
+table {
+    border-spacing: 0;
+    margin: 1rem auto;
+}
+
+
+
+
+td {
+    font-size: 50px;
+    border: 1px solid darkgray;
+    text-align: center;
+}
+
+
+
+
+@media screen and (max-width: 415px) {
+    html {
+        font-size: 16px;
+    }
+
+
+
+
+    aside {
+        display: none;
+    }
+
+
+
+
+    td {
+        width: 125px;
+        height: 125px;
+    }
+}
+
+
+
+
+
+
+@media screen and (min-width: 416px) and (max-width: 1181px) {
+
+
+    aside {
+        display: block;
+        width: 30%;
+    }
+
+
+    aside img {
+        width: 100%;
+    }
+
+
+    main {
+        width: 50%;
+    }
+
+
+    td {
+        width: 125px;
+        height: 125px;
+    }
+
+
+    html {
+        font-size: 18px;
+    }
+
+
+}
+
+
+
+
+@media screen and (min-width: 1181px) {
+
+
+    aside {
+        display: block;
+        width: 300px;
+    }
+
+
+    main {
+        width: 70%;
+    }
+
+
+    aside img {
+        width: 100%;
+    }
+
+
+    td {
+        width: 200px;
+        height: 200px;
+    }
+
+
+    html {
+        font-size: 22px;
+    }
+
+
+    .col {
+        width: 49%;
+    }
+
+
+    #div-in-form {
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
