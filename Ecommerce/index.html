@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Min E-butik</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">
+        <img src = "image/logo.png">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Hem</a></li>
+        <li><a href="#">Produkter</a></li>
+        <li><a href="#">Om oss</a></li>
+        <li><a href="#">Kontakta oss</a></li>
+      </ul>
+    </nav>
+
+    <div class="cart-icon" onclick="toggleCart()">
+        <img src="image/kundvagn1.png" alt="Varukorg">
+        <span id="cart-count">0</span>
+      </div>
+  </header>
+
+  <aside>
+    <a href="#">
+        <img src = "image/cart.png">
+    </a>
+</aside>
+
+  <main>
+    <section class="products" id="product-list">
+      <!-- Produkter laddas in här via JS -->
+    </section>
+  </main>
+
+  <div id="cart" class="cart hidden">
+    <h2>Varukorg</h2>
+    <ul id="cart-items"></ul>
+    <p>Total: <span id="cart-total">0</span> kr</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
