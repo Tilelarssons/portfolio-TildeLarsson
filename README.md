@@ -1,6 +1,3 @@
-
-
-
 📁 **demo** – Mini Issue System
 
 Ett litet ärendehanteringssystem byggt med Spring Boot och H2-databas. Frontend är enkel HTML/JS som kommunicerar med backend via REST API.
@@ -18,6 +15,29 @@ Ett litet ärendehanteringssystem byggt med Spring Boot och H2-databas. Frontend
 
 ## Beskrivning
 Projektet demonstrerar grundläggande REST API-integration, enkel frontend-backend-kommunikation samt användning av in-memory databas för snabba tester.
+
+📁 **MVC** – Ritverktyg
+Ett ritverktyg byggt med Java och Swing, strukturerat enligt MVC-designmönstret.
+
+![ritning.png](https://github.com/tilelarsson/portfolio-tildelarsson/MVC/ritning.png)
+
+## Funktioner
+- Rita linjer, ovaler och rektanglar
+- Välja linjefärg och fyllningsfärg
+- Justera linjebredd, höjd och bredd
+- Spara ritningen som PNG
+- Radera allt eller ångra senaste ändringar
+
+## Byggt med
+- Java 17 + Spring Boot 3.5.5
+- Maven
+- H2 in-memory database
+- HTML / JS
+
+## Beskrivning
+Projektet demonstrerar grundläggande användning av Java Swing för GUI-utveckling, tydlig separation av ansvar enligt MVC-designmönstret. Applikationen möjliggör interaktiv ritning av former, färgval och dynamisk hantering av ritobjekt.
+
+
 
 
 # Resultat från Analys
