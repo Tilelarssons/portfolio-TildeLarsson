@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# Java / Maven
+/target/
+*.log
+*.class
+*.jar
+*.war
+*.ear
+
+# IntelliJ IDEA
+/.idea/
+/*.iml
+
+# VS Code
+/.vscode/
+
+# Node / frontend (om du har någon)
+/node_modules/
+/dist/
+/build/
+
+# Other
+*.swp
