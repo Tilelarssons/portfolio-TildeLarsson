@@ -15,6 +15,11 @@ public class DrawingFacade {
 	public void clearAllShapes() {
 		model.clear();
 	}
+	
+	public DrawManager getDrawManager() {
+		return model;
+	}
+	
 
 	public void createShape(String selectedShape, int x, int y, int width, int height, Color lineColor, Color fillColor,
 			int lineWidth) {

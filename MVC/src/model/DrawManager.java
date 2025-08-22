@@ -18,6 +18,13 @@ public class DrawManager {
 	public void clear() {
 		shapes.clear();
 	}
+	
+	public void removeLastShape() {
+		if (!shapes.isEmpty()) {
+			shapes.remove(shapes.size() - 1);
+		}
+	}
+	
 
 	public List<ShapeComponent> getShapes() {
 		return shapes;

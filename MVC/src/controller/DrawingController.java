@@ -18,6 +18,12 @@ public class DrawingController {
 																									// facade
 	}
 
+	public void undoLastShape() {
+		facade.getDrawManager().removeLastShape();
+	}
+	
+	
+
 	public void drawAllShapes(Graphics g) {
 		for (ShapeComponent shape : facade.getShapes()) {
 			shape.draw(g);
