@@ -19,11 +19,7 @@ Projektet demonstrerar grundläggande REST API-integration, enkel frontend-backe
 📁 **MVC** – Ritverktyg
 Ett ritverktyg byggt med Java och Swing, strukturerat enligt MVC-designmönstret.
 
-### Exempel på ritning
-
 ![Ritning](MVC/ritning.png)
-
-Denna bild visar hur användaren kan rita former i applikationen.
 
 ## Funktioner
 - Rita linjer, ovaler och rektanglar
