@@ -20,6 +20,7 @@ Projektet demonstrerar grundläggande REST API-integration, enkel frontend-backe
 ---
 
 📁 **MVC** – Ritverktyg
+
 Ett ritverktyg byggt med Java och Swing, strukturerat enligt MVC-designmönstret.
 
 ![Ritning](MVC/ritning.png)
@@ -32,13 +33,14 @@ Ett ritverktyg byggt med Java och Swing, strukturerat enligt MVC-designmönstret
 - Radera allt eller ångra senaste ändringar
 
 ## Byggt med
-- Java 17 + Spring Boot 3.5.5
+- Java 21
+- Java Swing
 - Maven
-- H2 in-memory database
-- HTML / JS
+- MVC-designmönster
+- Facade-mönster
 
 ## Beskrivning
-Projektet demonstrerar grundläggande användning av Java Swing för GUI-utveckling, tydlig separation av ansvar enligt MVC-designmönstret. Applikationen möjliggör interaktiv ritning av former, färgval och dynamisk hantering av ritobjekt.
+Projektet demonstrerar grundläggande användning av Java Swing för GUI-utveckling, tydlig separation av ansvar enligt MVC-designmönstret. Applikationen möjliggör interaktiv ritning av former, färgval och dynamisk hantering av ritobjekt. För att ytterligare strukturera koden används **Facade-mönstret**, vilket ger ett förenklat gränssnitt mot komplexa delar av modellen och bidrar till ökad modularitet och testbarhet.
 
 
 ---
