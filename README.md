@@ -16,6 +16,9 @@ Ett litet ärendehanteringssystem byggt med Spring Boot och H2-databas. Frontend
 ## Beskrivning
 Projektet demonstrerar grundläggande REST API-integration, enkel frontend-backend-kommunikation samt användning av in-memory databas för snabba tester.
 
+
+---
+
 📁 **MVC** – Ritverktyg
 Ett ritverktyg byggt med Java och Swing, strukturerat enligt MVC-designmönstret.
 
@@ -38,7 +41,7 @@ Ett ritverktyg byggt med Java och Swing, strukturerat enligt MVC-designmönstret
 Projektet demonstrerar grundläggande användning av Java Swing för GUI-utveckling, tydlig separation av ansvar enligt MVC-designmönstret. Applikationen möjliggör interaktiv ritning av former, färgval och dynamisk hantering av ritobjekt.
 
 
-
+---
 
 # Resultat från Analys
 ## Use case diagram
