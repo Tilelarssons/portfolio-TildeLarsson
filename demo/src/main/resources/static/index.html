@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <title>Mini Issue System</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; }
+        table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+        th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+        th { background-color: #f4f4f4; }
+        button { padding: 5px 10px; margin-left: 5px; }
+    </style>
+</head>
+<body>
+    <h1>Mini Issue System</h1>
+
+    <h2>Skapa nytt ärende</h2>
+    <input type="text" id="title" placeholder="Titel">
+    <input type="text" id="description" placeholder="Beskrivning">
+    <button onclick="createIssue()">Skapa</button>
+
+    <h2>Alla ärenden</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Titel</th>
+                <th>Beskrivning</th>
+                <th>Status</th>
+                <th>Åtgärd</th>
+            </tr>
+        </thead>
+        <tbody id="issuesTable"></tbody>
+    </table>
+
+    <script>
+        const apiUrl = "/issues";
+
+        async function fetchIssues() {
+    const res = await fetch(apiUrl);
+    const issues = await res.json();
+    const tbody = document.getElementById("issuesTable");
+    tbody.innerHTML = "";
+
+    issues.forEach(issue => {
+        const tr = document.createElement("tr");
+
+        tr.innerHTML = `
+            <td>${issue.id}</td>
+            <td>${issue.title}</td>
+            <td>${issue.description}</td>
+            <td>${issue.status}</td>
+            <td></td>
+        `;
+
+        if(issue.status === 'OPEN') {
+            const btn = document.createElement("button");
+            btn.textContent = "Stäng";
+            btn.addEventListener("click", () => closeIssue(issue.id));
+            tr.children[4].appendChild(btn);
+        }
+
+        tbody.appendChild(tr);
+    });
+}
+
+        async function createIssue() {
+            const title = document.getElementById("title").value;
+            const description = document.getElementById("description").value;
+            await fetch(apiUrl, {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ title, description })
+            });
+            document.getElementById("title").value = "";
+            document.getElementById("description").value = "";
+            fetchIssues();
+        }
+
+        async function closeIssue(id) {
+            await fetch(`${apiUrl}/${id}/close`, { method: "PUT" });
+            fetchIssues();
+        }
+
+        // Ladda ärenden vid start
+        fetchIssues();
+    </script>
+</body>
+</html>
