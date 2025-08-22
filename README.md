@@ -21,7 +21,7 @@ Ett ritverktyg byggt med Java och Swing, strukturerat enligt MVC-designmönstret
 
 ### Exempel på ritning
 
-![Ritning](ritning.png)
+![Ritning](MVC/ritning.png)
 
 Denna bild visar hur användaren kan rita former i applikationen.
 
