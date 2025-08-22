@@ -1,5 +1,26 @@
 # portfolio-tildelarsson
 
+
+# Mini Issue System - 📁 **demo** – Mini Issue System (Spring Boot + HTML/JS)
+
+Ett litet ärendehanteringssystem byggt med Spring Boot och H2-databas. Frontend är enkel HTML/JS som kommunicerar med backend via REST API.
+
+## Funktioner
+- Skapa nya ärenden
+- Lista alla ärenden
+- Stäng ärenden
+
+## Teknologier
+- Java 17 + Spring Boot 3.5.5
+- Maven
+- H2 in-memory database
+- HTML / JS
+
+## Kommentar
+Projektet visar grundläggande REST API-integration, enkel frontend-backend kommunikation och användning av in-memory databas för snabba tester.
+
+
+
 # Resultat från Analys
 ## Use case diagram
 ![test.png](https://github.com/tildeelarsson/2024-isgc08-larsson/blob/main/analys/test.png)
