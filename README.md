@@ -2,6 +2,8 @@
 
 Ett litet ärendehanteringssystem byggt med Spring Boot och H2-databas. Frontend är enkel HTML/JS som kommunicerar med backend via REST API.
 
+![Demo](demo/demo.png)
+
 ## Funktioner
 - Skapa nya ärenden
 - Lista alla ärenden
