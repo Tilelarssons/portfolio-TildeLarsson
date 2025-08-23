@@ -69,6 +69,7 @@ Projektet demonstrerar hur en chatbot kan implementeras i en Node.js-miljö med 
 ----
 
 📁 **game-ttt** – Tic-tac-toe
+
 Ett Tic Tac Toe-spel byggt helt som frontend med HTML, CSS och JavaScript.
 
 ## Funktioner
@@ -77,6 +78,7 @@ Ett Tic Tac Toe-spel byggt helt som frontend med HTML, CSS och JavaScript.
 - Kontrollera vinster, oavgjort och avsluta spelet korrekt
 - Valfri timer som begränsar tiden per drag
 - Återställ spelet för att spela igen
+- Responsiv layout som fungerar på både mobil, surfplatta och desktop
 
 ## Byggt med
 - HTML för spelplan och formulär
@@ -84,7 +86,7 @@ Ett Tic Tac Toe-spel byggt helt som frontend med HTML, CSS och JavaScript.
 - JavaScript för spel-logik, turhantering och timer
 
 ## Beskrivning
-Projektet demonstrerar hur ett interaktivt spel kan implementeras helt i frontend. Speldata lagras i ett globalt objekt (oGameData), vilket gör det enkelt att hålla koll på spelplan, spelare och aktuell tur. Timer-funktionen visar hur man kan kombinera DOM-manipulation med asynkron logik, och spelets modulära uppbyggnad underlättar vidareutveckling, t.ex. fler spelregler eller AI-motståndare.
+Projektet demonstrerar hur ett interaktivt spel kan implementeras helt i frontend. Speldata lagras i ett globalt objekt (oGameData), vilket gör det enkelt att hålla koll på spelplan, spelare och aktuell tur. Timer-funktionen visar hur man kan kombinera DOM-manipulation med asynkron logik, och spelets modulära uppbyggnad underlättar vidareutveckling, t.ex. fler spelregler eller AI-motståndare. Den responsiva designen säkerställer att spelet fungerar smidigt på olika enheter och skärmstorlekar.
 
 ----
 
