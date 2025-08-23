@@ -72,6 +72,9 @@ Projektet demonstrerar hur en chatbot kan implementeras i en Node.js-miljö med 
 
 ----
 
+📁 **Ecommerce** – 
+
+---
 
 # Resultat från Analys
 ## Use case diagram
