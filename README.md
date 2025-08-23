@@ -49,6 +49,25 @@ Projektet demonstrerar grundläggande användning av Java Swing för GUI-utveckl
 
 📁 **chatbot** – 
 
+En chatbot...
+
+## Funktioner
+- Skicka meddelanden till chatboten
+- Ta emot AI-genererade svar via OpenAI API
+- Visa dialogen i en chattruta
+
+## Byggt med
+- Node.js
+- Express.js
+- OpenAI API
+- JavaScript (ES6+)
+- HTML & CSS
+
+## Beskrivning
+Projektet demonstrerar hur en chatbot kan implementeras i en Node.js-miljö med Express.js som backend och OpenAI:s API för AI-genererade svar. Användarens meddelanden skickas till OpenAI:s API, som genererar svar och returnerar dessa till frontend-delen. Applikationen möjliggör en interaktiv dialog i en chattruta, där kommunikationen mellan användare och bot sker i realtid. För att säkerställa säker hantering av API-nyckeln används miljövariabler via .env, vilket underlättar både vidareutveckling och driftsättning.
+
+----
+
 # Resultat från Analys
 ## Use case diagram
 ![test.png](https://github.com/tildeelarsson/2024-isgc08-larsson/blob/main/analys/test.png)
