@@ -72,15 +72,12 @@ Projektet demonstrerar hur en chatbot kan implementeras i en Node.js-miljö med 
 
 ----
 
-📁 **design** – 
-
----
 
 # Resultat från Analys
 ## Use case diagram
 ![test.png](https://github.com/tildeelarsson/2024-isgc08-larsson/blob/main/analys/test.png)
 
-## Sekvensdiagram för Analys
+## Sekvensdiagram för 📁analys
 ### Skapa Fil (Analys)
 ![skapaFil.drawio.png](https://github.com/tildeelarsson/2024-isgc08-larsson/blob/main/analys/skapaFil.drawio.png)
 ### Öppna Fil (Analys)
@@ -102,7 +99,7 @@ Projektet demonstrerar hur en chatbot kan implementeras i en Node.js-miljö med 
 ### Stäng Fil (Analys)
 ![exitFile.drawio.png](https://github.com/tildeelarsson/2024-isgc08-larsson/blob/main/analys/exitFile.drawio.png)
 
-# Resultat från Design
+# Resultat från 📁design
 ## Klassdiagram för Design
 ![Klassdiagram.drawio.png](https://github.com/tildeelarsson/2024-isgc08-larsson/blob/main/design/Klassdiagram.drawio.png)
   
