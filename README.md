@@ -47,9 +47,9 @@ Projektet demonstrerar grundläggande användning av Java Swing för GUI-utveckl
 
 ---
 
-📁 **chatbot** – 
+📁 **chatbot** – AI Chatbot
 
-En chatbot...
+En enkel chatbot byggd med Node.js och Express.js. Frontend (HTML, CSS, JS) hanterar gränssnittet, medan backend kommunicerar med OpenAI:s API för att generera svar. API-nyckeln lagras säkert i en .env-fil.
 
 ## Funktioner
 - Skicka meddelanden till chatboten
