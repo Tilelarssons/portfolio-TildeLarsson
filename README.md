@@ -68,6 +68,14 @@ Projektet demonstrerar hur en chatbot kan implementeras i en Node.js-miljö med 
 
 ----
 
+📁 **game-ttt** – 
+
+----
+
+📁 **Design** – 
+
+---
+
 # Resultat från Analys
 ## Use case diagram
 ![test.png](https://github.com/tildeelarsson/2024-isgc08-larsson/blob/main/analys/test.png)
