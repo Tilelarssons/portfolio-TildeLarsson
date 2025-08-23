@@ -72,6 +72,9 @@ Projektet demonstrerar hur en chatbot kan implementeras i en Node.js-miljö med 
 
 Ett Tic Tac Toe-spel byggt helt som frontend med HTML, CSS och JavaScript.
 
+![tic-tac-toe](game-ttt/ttt.png)
+
+
 ## Funktioner
 - Ange namn och färg för två spelare
 - Växla tur mellan spelare automatiskt
