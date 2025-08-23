@@ -47,6 +47,8 @@ Projektet demonstrerar grundläggande användning av Java Swing för GUI-utveckl
 
 ---
 
+📁 **chatbot** – 
+
 # Resultat från Analys
 ## Use case diagram
 ![test.png](https://github.com/tildeelarsson/2024-isgc08-larsson/blob/main/analys/test.png)
