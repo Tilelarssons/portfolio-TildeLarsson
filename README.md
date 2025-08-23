@@ -93,7 +93,26 @@ Projektet demonstrerar hur ett interaktivt spel kan implementeras helt i fronten
 
 ----
 
-📁 **Ecommerce** – 
+📁 **Ecommerce** – Enkel e-handel
+
+En enkel e-handel byggd helt i frontend med HTML, CSS och JavaScript. Användaren kan se produkter, lägga till dem i en varukorg och se totalpris och antal artiklar i varukorgen.
+
+![Ecommerce](Ecommerce/ecommerce.png)
+
+## Funktioner
+- Visa lista över produkter med bild, namn och pris
+- Lägg produkter i varukorgen
+- Visa antal produkter och totalpris i varukorgen
+- Visa och dölja varukorgen med knapp
+- All logik hanteras i frontend med JavaScript
+
+## Byggt med
+- HTML för layout och struktur
+- CSS för design och stil
+-JavaScript för produktlogik och varukorgshantering
+
+## Beskrivning
+Projektet demonstrerar hur man kan bygga en enkel webbutik utan backend. Produktdata lagras i en JavaScript-array och varukorgens innehåll uppdateras dynamiskt i DOM:en. Designen är modulär och gör det enkelt att lägga till fler produkter eller funktioner, exempelvis filtrering eller sortering.
 
 ---
 
